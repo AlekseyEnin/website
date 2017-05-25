@@ -1,0 +1,52 @@
+/*body {
+	width: 960px;
+	margin: auto;
+}*/
+.container {
+	width: 1008px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+header {
+/*	width: 960px;*/
+	height: 150px;
+	background-color: yellow;
+	position: relative;
+}
+
+img#logo {
+	width: 122px;
+	height: 108px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.contact {
+	height: 108px;
+	width: 279px;
+	background-color: #777777;
+	position: absolute;
+	top: 0px;
+	left: 145px;
+}
+
+div.more {
+	height: 108px;
+	width: 513px;
+	background-color: #777777;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+/*@media screen and (max-width: 1008px) {
+	html {
+		overflow-x: scroll;
+};*/
+
+/*html {
+	max-width: 1008px;
+}*/
