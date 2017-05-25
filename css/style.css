@@ -1,15 +1,16 @@
-/*body {
-	width: 960px;
-	margin: auto;
-}*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .container {
 	width: 1008px;
 	margin: 0 auto;
 	padding: 0 24px;
+	box-sizing: border-box;
 }
 
 header {
-/*	width: 960px;*/
 	height: 150px;
 	background-color: yellow;
 	position: relative;
@@ -39,14 +40,4 @@ div.more {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-
 }
-
-/*@media screen and (max-width: 1008px) {
-	html {
-		overflow-x: scroll;
-};*/
-
-/*html {
-	max-width: 1008px;
-}*/
